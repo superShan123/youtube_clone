@@ -1,0 +1,287 @@
+.header{
+    height: 55px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+position:fixed;
+top:0;
+right:0;
+left:0;
+background-color:white;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:rgb(228,228,228);
+z-index: 100;
+
+}
+
+.left-section{
+    display: flex;
+align-items: center;
+
+
+}
+
+.center-section{
+    
+flex: 1;
+margin-left: 70px;
+margin-right: 35px;
+max-width:500px;
+display: flex;
+align-items: center;
+
+}
+
+.right-section{
+    
+width: 180px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-right:20px;
+flex-shrink: 0;
+
+}
+
+
+.thumbnail{
+    width:100%;
+    
+}
+
+.search-box{
+    display: block;
+    
+
+}
+
+.three-lines{
+    height:20px;
+
+}
+
+.youtube-logo{
+    height:20px;
+}
+
+
+
+
+
+.picture{
+width: 36px;
+border-radius: 36px;
+margin-top: 0px;
+
+}
+
+.video-title{
+   
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+}
+
+p{
+    font-family: Roboto, Arial, sans-serif;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.video-author{
+    font-size: 12px;
+     color:rgb(96, 96, 96);
+     margin-top: 12px;
+
+}
+
+.video-views{
+    font-size: 12px;
+font-weight: 400;
+color: rgb(96, 96, 96);
+margin-top:4px;
+
+}
+
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+
+}
+
+body{
+margin:0;
+padding-top:80px;
+padding-left:96px;
+padding-right: 24px;
+background-color:rgb(248,248,248);
+}
+.three-lines{
+height: 24px;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.youtube-logo{
+height: 20px;
+}
+
+.search-button{
+width: 66px;
+height: 39px;
+background-color: rgb(240,240,240);
+border-style: solid;
+border-width: 1px;
+border-color: rgb(192,192,192);
+margin-left: -1px;
+margin-right:10px;
+
+}
+
+.voice-search{
+width:40px;
+height:40px;
+border-radius: 20px;
+border: none;
+background-color: rgb(245,245,245);
+}
+
+.search-bar{
+flex: 1;
+height: 34px;
+font-size: 16px;
+padding-left: 16px;
+border-style: solid;
+border-radius: 2px;
+border-color: rgb(192,192,192);
+box-shadow: inset 1px 1px 3px rgba(0,0,0,0.05);
+width: 0;
+}
+
+.search-bar::placeholder{
+font-family: Roboto,Arial;
+
+}
+
+.search-box{
+width:24px;
+margin-left: 18px;
+
+}
+
+.voice-icon{
+height: 24px;
+margin-top: 4px;
+
+}
+
+.create{
+height:24px;
+
+}
+
+.youtube-apps{
+height:24px;
+
+}
+
+.notification-icon{
+height:24px;
+
+}
+
+.dp{
+height:32px;
+
+
+}
+
+.side-bar{
+position: fixed;
+background: white;
+left: 0px;
+bottom: 0;
+top: 54px;
+width: 72px;
+z-index:200;
+padding-top:5px;
+cursor:pointer;
+
+}
+
+.time-period{
+    background: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
+}
+
+.thumbnail-row{
+    position:relative;
+    margin-bottom:8px;
+
+}
+
+
+
+.notification-number{
+    position:relative;
+
+}
+.no{
+    position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: rgb(200,0,0);
+  font-family: Roboto,Arial;
+  font-size: 11px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  border-radius: 10px;
+
+}
+
+.box1{
+    height:74px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.box1:hover{
+    background-color:rgb(235,235,235);
+
+}
+
+.box1 img{
+    height:30px;
+}
+
+.box1 div{
+    font-family:Roboto,Arial;
+    font-size:10px;
+}
+
+
